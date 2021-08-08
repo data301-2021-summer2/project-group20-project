@@ -107,7 +107,7 @@ def Ranker(df,top,xsize,color,title):
         Sets the x axis ticker size
     
     color : str
-        Palette color for the sns.bargraph
+        color for the sns.bargraph
         
     title : str
         Sets the title for which price range the graph is for
@@ -132,7 +132,7 @@ def Ranker(df,top,xsize,color,title):
     import seaborn as sns
     plt.figure(figsize=(10,top*0.5))
     plt.xlim(xsize)
-    plot = sns.barplot(data=df,y='Name',x='Price per Night ($)',palette=color)
+    plot = sns.barplot(data=df,y='Name',x='Price per Night ($)',color=color)
     sns.despine()
     plt.bar_label(plot.containers[0],labels=df['Price per Night ($)'].round(2))
     i=0
@@ -142,5 +142,5 @@ def Ranker(df,top,xsize,color,title):
                    (xsize[0]+5,p.get_y()+0.5)
                    )
         i = i+1
-    plot.set(title=f"Top {top} Airbnbs '{title}' dollars", ylabel="AirBnbs")
+    plot.set(title=f"Top {top} Airbnbs '{title}' dollars", ylabel=" ")
     return(plt.show())

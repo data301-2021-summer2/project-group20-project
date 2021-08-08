@@ -1,4 +1,4 @@
-# Group 20 - Hotel Trivago of Airbnb
+# Group 20 - Trivago of Airbnb
 
 
 
