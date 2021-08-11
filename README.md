@@ -1,11 +1,14 @@
 # Group 20 - Trivago of Airbnb
 
+## Dashboard Presentation
 
-
+Link to the video presentation can be found here: [Trivago of Airbnb](https://www.youtube.com/watch?v=mbCM4TbeCoc).
 
 ## Milestones
 
 Details for Milestone are available on Canvas (left sidebar, Course Project) or [here](https://firas.moosvi.com/courses/data301/project/milestone01.html).
+
+Quck access to Milestone 1 and 2 [here](https://github.com/data301-2021-summer2/project-group20-project/tree/main/analysis/Bonn)!
 
 ## Describe your topic/interest in about 150-200 words
 
